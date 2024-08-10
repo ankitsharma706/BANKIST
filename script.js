@@ -409,7 +409,7 @@ const startLogOutTimer = function () {
     time--;
   };
 
-  let time = 120;
+  let time = 300;
   // call the timeer
   tick();
   const timer = setInterval(tick, 1000);
